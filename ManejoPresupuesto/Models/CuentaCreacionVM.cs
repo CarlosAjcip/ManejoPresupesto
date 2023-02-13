@@ -4,6 +4,6 @@ namespace ManejoPresupuesto.Models
 {
     public class CuentaCreacionVM : Cuentas
     {
-        public IEnumerable<SelectListItem>? TiposCuentas { get; set; }
+        public IEnumerable<SelectListItem> TiposCuentas { get; set; }
     }
 }
